@@ -6,9 +6,11 @@ The GraphQL Accounts project was intended - since it's inception - to be a commu
 
 ## Getting started
 
+1. [Install Node.js](https://nodejs.org/en/download/)
 1. Fork the project on Github (top right on the project page)
 1. `git clone git@github.com:yourname/accounts`
 1. `git checkout devel`
+1. Install dependencies (`npm install`)
 1. `git checkout -b proposed-feature`
 
 Most packages in the project are self contained with their own tests.  But if you want to use your devel copy in a project, use `npm link`:
